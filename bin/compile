@@ -10,8 +10,6 @@ set -e
 # clean up leaking environment
 unset GIT_DIR
 
-apt-get install -y -qq groff
-
 echo "-----> Adding soelim to path"
 export PATH=$PATH:$BUILD_DIR/.python-ldap/groff/bin
 
